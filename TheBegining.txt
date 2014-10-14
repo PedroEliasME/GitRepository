@@ -1,7 +1,7 @@
 
-							UNA NUEVA COMPUTADORA :)
+						UNA NUEVA COMPUTADORA :)
 
-1) Como formatear tu computadora e instalar Ubuntu 14.04.1 en tu computadora
+1) Como formatear tu computadora e instalar Ubuntu 14.04.1
 
 1.1) Compra un DVD-R virgen
 

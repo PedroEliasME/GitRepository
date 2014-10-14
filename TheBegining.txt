@@ -198,6 +198,12 @@ presinoa: Enter
 
 3.2) Para poder estar usando GitHub de manera fluida y sin inerrupciones de confirmación de identidad dónde pide tu nombre de usuario y constraseña, vamos a generar un archivo oculto donde se crea una contraseña local/publica qué conecta la temrinal con GitHub.
 
+
+
+
+
+less .ssh/id_rsa.pub
+
 3.3) Ahora vamos a crear un repositorio en GitHub donde vamos a poder subir nuestros archivos .txt y .ipynb.
 
 Crea un repositorio en https://github.com/

@@ -35,6 +35,9 @@ Introduce nuevamente el disco.
 
 2) Cómo Instalar IJulia Notebook en Linux-Ubuntu 14.04 LTS paso a paso.
 
+En tu escritorio, del lado izquiero aparecen unos pequeños recuadros, escoge el de hasta arriba, busca Terminal, (se abrira)
+ubícala del lado izquierdo (seguramente hasta abajo de la columna) dale click derecho, selecciona Luck to Launcher. Esto perimitirá tenerla a la mano cuando quieras, sin tenerla qué buscar todo el tiempo. Además la puedes abrir con Ctl+Alt+T
+
 2.1) Entrar a http://continuum.io/downloads
 
 Escoger entre Linux 32 bit Python 2.7 o Linux 64 bit Python 2.7.  (Para saber cuál escoger irse a la pantalla de inicio de Ubuntu, irse a System Settings, luego a Details y fijarse en dónde dice Os Type.)

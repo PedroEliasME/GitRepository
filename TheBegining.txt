@@ -202,9 +202,77 @@ presinoa: Enter
 
 Crea un repositorio en https://github.com/
 
-4) Recopilación de Comandos
 
-4.1) Vamos a hacer una lista de todos los comandos y uno que otro link para que puedas consultarlo cuando quieras y te hagas un experto en el lenguaje de programación de IJulia y GitHub
+4) Como instalar LightTable
+
+Una vez descargado:
+
+Abrimos una terminal 
+sudo apt-get install nautilus-open-terminal 
+
+
+ (podemos abrir terminal desde donde estemos)
+
+para reiniciarlo escribimos
+
+nautilus -q
+
+le damos un click derecho y abrir una temrinal y me abre ya en ese directorio
+
+Bueno, regresando
+
+estando en descarga
+
+la descomprime
+
+tar zxvf LightTableLinux.tar.gz     (si es de 32bit)
+tar zxvf LightTableLinux62.tar.gz  (si es de 64bits)
+
+esto va a crear una carpeta
+
+ahora:
+
+ sudo mv LightTable /opt
+
+Luego hay que instalar un programita:
+
+sudo apt-get install --no-install-recommends gnome-panel
+
+Luego
+
+escribimos: sudo ln -sf /lib/i386-linux-gnu/libudev.so.1 /lib/i386-linux-gnu/libudev.so.0
+
+esto va a hacer que se arreglen  unos problemitas que tiene ubuntu
+
+Luego
+
+escribimos: sudo gnome-desktop-item-edit /usr/share/applications/ --create-new
+
+que va a crear  un iconico bonito para abrirlo como cualquier programa
+
+
+
+luego nos aparece un cuadrito y escribimos:
+
+el icóno: (le das click al icpono y lo buscas en:)  /opt/LightTable/LightTable/core/img/lticon.png
+el nomre : LightTable
+COmando:  /LightTable/
+
+
+y listo, lo podemos abrrir desde nuestro escribtorio
+
+
+
+less .ssh/id_rsa.pub
+
+COPIAMOS LA CALVE QUE APARECE EN LA TEDMRINAL  EN KEY DE GITHUB , LUEGO PONEMOS NUESTRA CONTRASELA DE GITHUB Y LISTO
+
+Y 
+
+
+5) Recopilación de Comandos
+
+5.1) Vamos a hacer una lista de todos los comandos y uno que otro link para que puedas consultarlo cuando quieras y te hagas un experto en el lenguaje de programación de IJulia y GitHub
 
 i)Para aprender a Programar en Julia: http://julialang.org/
 
@@ -214,9 +282,12 @@ Shift+Enter   - Manda ejecutar lo qué se escribió en la linea.
 
 iii) Comandos básicos enGit Hub: 
 
-5) Agregando programas a nuestrea nueva y limpia computadora.
+
+6) Agregando programas a nuestrea nueva y limpia computadora.
 
 Después de instalar Ubunutu y el lenguaje de programación Julia es recomendable tener otras aplicacions qué nos serán de mucha utilidad a lo largo de nuestro tiempo frente a la computadora. Algunas de estas aplicaciones de ayuda son Vuze, Latexila, VisualBoyAdvance Telegram, desde google store, etc...
+
+
 
 
 

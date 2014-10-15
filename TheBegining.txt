@@ -250,8 +250,51 @@ exit
 
 3.3.3) Vamos a hacer archivos en IJulia para después subirlos a GitHub.
 
+Abrimos la Terminal y nos vamos a IJulia escribinedo: ipython notebook --profile julia
 
+Dentro de IJulia nos vamos a la carpeta "a", y creamos un nuevo Notebook con nombre "c".
 
+Ahora, en este notebook, vamos a escribir y correr los siguientes comandos, uno por cada liena de comando:
+
+;git init
+
+;git config --global user.name "Your Name" 
+
+;git cinfig --global user.email "your@email.com".
+
+;git config user.name "Your Name" 
+
+;git remote add origin "z"
+
+;git push -u origin master
+
+Ahora lo salvamos, (presionar el boton en la parte superior izquierda en forma de disco)
+
+Cerramos la pestaña de nuestro navegador en la qué estamos.
+
+Le damos Shutdown al notebook "c"
+
+Nos vamos a la Terminal
+
+Cerramos IJulia.
+
+Escribimos: cd
+
+Prsionamos: Enter
+
+Ahora escribimos: cd "a"
+
+Escribimos: git add "c.ipynb"
+
+Escribimos: git commit -m "(escribimos un mensaje señalando los cambios qué hicimos"
+
+Escribimos: git push (Puede ser aqué nos pida el nombre de usuario y contraseña, se lo escribimos.)
+
+Escribimos: cd
+
+Escribimos exit.
+
+Listo, nuestro archivo ya está en GitHub.
 
 4) Como instalar LightTable
 

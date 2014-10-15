@@ -198,15 +198,59 @@ presinoa: Enter
 
 3.2) Para poder estar usando GitHub de manera fluida y sin inerrupciones de confirmación de identidad dónde pide tu nombre de usuario y constraseña, vamos a generar un archivo oculto donde se crea una contraseña local/publica qué conecta la temrinal con GitHub.
 
-
-
-
-
 less .ssh/id_rsa.pub
 
 3.3) Ahora vamos a crear un repositorio en GitHub donde vamos a poder subir nuestros archivos .txt y .ipynb.
 
-Crea un repositorio en https://github.com/
+3.3.1) Crea un repositorio en https://github.com/
+
+Para ello dale en el signo de más ("+") qué está en la parte superior derecha, dale "New repository".
+
+Llamalo como quieras, de preferencia que un nombre corto y de una palabra. (Me voy a referir a este nombre del repositorio como "a")
+
+Al crear un repositorio te aparecerán varios comandos, guarda los siguientes:
+
+i)   git remote add origin ...  (voy a llamarla "x" para referimre a este comando)
+ii)  git push -u ...  (voy a llamarla "y" para referimre a este comando)
+iii) la dirección que aparece en HTTP  (voy a llamarla "z" para referimre a este comando)
+
+3.3.2) Escribe en la terminal:
+
+Jalamos nuestro repositorio escribiendo:
+
+git clone "z"
+
+Entramos a la carpeta escribiendo:
+
+cd "a"
+
+Ahora creamos un archivo de .txt nuevo (el nombre de este archivo lo voy a llamar "b.txt") escribiendo:
+
+touch "b.txt"
+
+Agregamos el archivo a git escribiendo:
+
+git add "b.txt"
+
+Lo guardamos en nuestro git escribiendo:
+
+git commit -m "" (entre las comillas puede ir un mensaje que es como una nota para acordarte que cambios hiciste)
+
+Luego lo subimos a GitHub escribiendo:
+
+git push
+
+Ahora nos salimos de nuestro directorio escribiendo:
+
+cd
+
+Ahora nos salimos de la terminal escribiendo:
+
+exit
+
+3.3.3) Vamos a hacer archivos en IJulia para después subirlos a GitHub.
+
+
 
 
 4) Como instalar LightTable

@@ -211,6 +211,10 @@ Crea un repositorio en https://github.com/
 
 4) Como instalar LightTable
 
+4.1) Vamos a descargarlo.
+
+4.2) Vamos a instalarlo.
+
 Una vez descargado:
 
 Abrimos una terminal 
@@ -275,19 +279,51 @@ COPIAMOS LA CALVE QUE APARECE EN LA TEDMRINAL  EN KEY DE GITHUB , LUEGO PONEMOS 
 
 Y 
 
+4.3) Vamos a hacer qué pueda correr comandos de Julia.
+
+En la página principal de Light Tabel:
+
+Ctrl+Spacebar
+
+En el recuadro escribimos: 
+
+show plugin manager
+
+Le damos click a la primera ocpión qué aparezca.
+
+En el recuadro del buscador (el cuál dice "search available plugins") escribimos: 
+
+juno
+
+Presionamos: 
+
+Ctrl+Spacebar
+
+Escribimos:
+
+user behaviors
+
+Aparecerá un texto escrito. Ahí borramos donde dice "default” y escribimos “june".
+
+Guárdalo (Hasta arriba, en la barra de herramientas: "file" y luego "save")
+
+Cierra Light Tabel y vuelvelo a abrir.
+
+Listo, ya podrás correr códigos de Julia. (Recuerda qué para correr códigos debes presionar Ctrl+Spacebar con el cursor al final del código.)
 
 5) Recopilación de Comandos
 
-5.1) Vamos a hacer una lista de todos los comandos y uno que otro link para que puedas consultarlo cuando quieras y te hagas un experto en el lenguaje de programación de IJulia y GitHub
+Vamos a hacer una lista de todos los comandos y uno que otro link para que puedas consultarlo cuando quieras y te hagas un experto en el lenguaje de programación de IJulia y GitHub
 
-i)Para aprender a Programar en Julia: http://julialang.org/
+5.1)Para aprender a Programar en Julia: http://julialang.org/
 
-ii) Comandos básicos en IJulia: 
+5.2) Comandos básicos en IJulia: 
 
 Shift+Enter   - Manda ejecutar lo qué se escribió en la linea.
 
-iii) Comandos básicos enGit Hub: 
+5.3) Comandos básicos enGit Hub: 
 
+5.4) Comandos básicos en Light Tabel
 
 6) Agregando programas a nuestrea nueva y limpia computadora.
 

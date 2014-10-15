@@ -410,7 +410,7 @@ Shift+Enter   - Manda ejecutar lo qué se escribió en la linea.
 
 5.3) Comandos básicos enGit Hub: 
 
-5.4) Comandos básicos en Light Tabel
+5.4) Comandos básicos en Light Table
 
 6) Agregando programas a nuestrea nueva y limpia computadora.
 
